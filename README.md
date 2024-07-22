@@ -1,2 +1,6 @@
 # ardulog_dashboard
-#TBD
+
+Folder Structure : 
+
+/sql
+    scripts.sql
