@@ -3,11 +3,12 @@ The idea behind ardulog dashboard is that the server maintains all the logs in a
 It should be platform/software agnostic.
 
 ```mermaid
+%%{init: {'theme':'forest'}}%%
 sequenceDiagram
     box Brown GCS
         participant DashboardManager
     end
-    box Green DBServer
+    box DarkGreen DBServer
         participant Facade
         participant TempStorage
         participant ParquetProcessor
